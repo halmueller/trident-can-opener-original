@@ -1,0 +1,699 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BEA2AC220F5BE3B00913562 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BEA2AC120F5BE3B00913562 /* AppDelegate.m */; };
+		2BEA2AC520F5BE3B00913562 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BEA2AC420F5BE3B00913562 /* ViewController.m */; };
+		2BEA2AC720F5BE3E00913562 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BEA2AC620F5BE3E00913562 /* Assets.xcassets */; };
+		2BEA2ACA20F5BE3E00913562 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BEA2AC820F5BE3E00913562 /* Main.storyboard */; };
+		2BEA2ACD20F5BE3E00913562 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BEA2ACC20F5BE3E00913562 /* main.m */; };
+		2BEA2AD820F5BE3E00913562 /* Trident_Can_OpenerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BEA2AD720F5BE3E00913562 /* Trident_Can_OpenerTests.m */; };
+		2BEA2AE320F5BE3E00913562 /* Trident_Can_OpenerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BEA2AE220F5BE3E00913562 /* Trident_Can_OpenerUITests.m */; };
+		2BEA2AF220F5BEB100913562 /* CanOpener.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BEA2AF120F5BEB100913562 /* CanOpener.m */; };
+		2BEA2AFF20F5C7C800913562 /* forestdb_dump.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2BEA2AFE20F5C7C800913562 /* forestdb_dump.cc */; };
+		2BEA2B0220F5C85F00913562 /* libforestdb.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BEA2B0120F5C85F00913562 /* libforestdb.dylib */; };
+		2BEA2B0420F5C87400913562 /* libsnappy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BEA2B0320F5C87400913562 /* libsnappy.a */; };
+		2BEA2B0620F5C92300913562 /* dump_common.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2BEA2B0520F5C92300913562 /* dump_common.cc */; };
+		2BEA2B0A20F5CE2D00913562 /* filemgr_ops_linux.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2BEA2B0920F5CE2D00913562 /* filemgr_ops_linux.cc */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2BEA2AD420F5BE3E00913562 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BEA2AB520F5BE3B00913562 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BEA2ABC20F5BE3B00913562;
+			remoteInfo = "Trident Can Opener";
+		};
+		2BEA2ADF20F5BE3E00913562 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BEA2AB520F5BE3B00913562 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BEA2ABC20F5BE3B00913562;
+			remoteInfo = "Trident Can Opener";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2BEA2AF520F5C7BC00913562 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2BEA2ABD20F5BE3B00913562 /* Trident Can Opener.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trident Can Opener.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BEA2AC020F5BE3B00913562 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2BEA2AC120F5BE3B00913562 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2BEA2AC320F5BE3B00913562 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2BEA2AC420F5BE3B00913562 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2BEA2AC620F5BE3E00913562 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2BEA2AC920F5BE3E00913562 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2BEA2ACB20F5BE3E00913562 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BEA2ACC20F5BE3E00913562 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2BEA2ACE20F5BE3E00913562 /* Trident_Can_Opener.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Trident_Can_Opener.entitlements; sourceTree = "<group>"; };
+		2BEA2AD320F5BE3E00913562 /* Trident Can OpenerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Trident Can OpenerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BEA2AD720F5BE3E00913562 /* Trident_Can_OpenerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Trident_Can_OpenerTests.m; sourceTree = "<group>"; };
+		2BEA2AD920F5BE3E00913562 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BEA2ADE20F5BE3E00913562 /* Trident Can OpenerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Trident Can OpenerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BEA2AE220F5BE3E00913562 /* Trident_Can_OpenerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Trident_Can_OpenerUITests.m; sourceTree = "<group>"; };
+		2BEA2AE420F5BE3E00913562 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BEA2AF020F5BEB100913562 /* CanOpener.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CanOpener.h; sourceTree = "<group>"; };
+		2BEA2AF120F5BEB100913562 /* CanOpener.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CanOpener.m; sourceTree = "<group>"; };
+		2BEA2AF720F5C7BC00913562 /* forestDumper */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = forestDumper; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BEA2AFE20F5C7C800913562 /* forestdb_dump.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = forestdb_dump.cc; path = ../../Vendor/forestdb/tools/forestdb_dump.cc; sourceTree = "<group>"; };
+		2BEA2B0120F5C85F00913562 /* libforestdb.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libforestdb.dylib; path = "../Vendor/forestdb-build/libforestdb.dylib"; sourceTree = "<group>"; };
+		2BEA2B0320F5C87400913562 /* libsnappy.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsnappy.a; path = "../Vendor/snappy-build/libsnappy.a"; sourceTree = "<group>"; };
+		2BEA2B0520F5C92300913562 /* dump_common.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = dump_common.cc; path = ../../Vendor/forestdb/tools/dump_common.cc; sourceTree = "<group>"; };
+		2BEA2B0720F5CE1300913562 /* filemgr_ops.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = filemgr_ops.cc; path = ../../Vendor/forestdb/src/filemgr_ops.cc; sourceTree = "<group>"; };
+		2BEA2B0920F5CE2D00913562 /* filemgr_ops_linux.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = filemgr_ops_linux.cc; path = ../../../forestdb/src/filemgr_ops_linux.cc; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BEA2ABA20F5BE3B00913562 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BEA2AD020F5BE3E00913562 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BEA2ADB20F5BE3E00913562 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BEA2AF420F5C7BC00913562 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BEA2B0420F5C87400913562 /* libsnappy.a in Frameworks */,
+				2BEA2B0220F5C85F00913562 /* libforestdb.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BEA2AB420F5BE3B00913562 = {
+			isa = PBXGroup;
+			children = (
+				2BEA2ABF20F5BE3B00913562 /* Trident Can Opener */,
+				2BEA2AD620F5BE3E00913562 /* Trident Can OpenerTests */,
+				2BEA2AE120F5BE3E00913562 /* Trident Can OpenerUITests */,
+				2BEA2AF820F5C7BC00913562 /* forestDumper */,
+				2BEA2ABE20F5BE3B00913562 /* Products */,
+				2BEA2B0020F5C85E00913562 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2BEA2ABE20F5BE3B00913562 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BEA2ABD20F5BE3B00913562 /* Trident Can Opener.app */,
+				2BEA2AD320F5BE3E00913562 /* Trident Can OpenerTests.xctest */,
+				2BEA2ADE20F5BE3E00913562 /* Trident Can OpenerUITests.xctest */,
+				2BEA2AF720F5C7BC00913562 /* forestDumper */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BEA2ABF20F5BE3B00913562 /* Trident Can Opener */ = {
+			isa = PBXGroup;
+			children = (
+				2BEA2AF020F5BEB100913562 /* CanOpener.h */,
+				2BEA2AF120F5BEB100913562 /* CanOpener.m */,
+				2BEA2AC020F5BE3B00913562 /* AppDelegate.h */,
+				2BEA2AC120F5BE3B00913562 /* AppDelegate.m */,
+				2BEA2AC320F5BE3B00913562 /* ViewController.h */,
+				2BEA2AC420F5BE3B00913562 /* ViewController.m */,
+				2BEA2AC620F5BE3E00913562 /* Assets.xcassets */,
+				2BEA2AC820F5BE3E00913562 /* Main.storyboard */,
+				2BEA2ACB20F5BE3E00913562 /* Info.plist */,
+				2BEA2ACC20F5BE3E00913562 /* main.m */,
+				2BEA2ACE20F5BE3E00913562 /* Trident_Can_Opener.entitlements */,
+			);
+			path = "Trident Can Opener";
+			sourceTree = "<group>";
+		};
+		2BEA2AD620F5BE3E00913562 /* Trident Can OpenerTests */ = {
+			isa = PBXGroup;
+			children = (
+				2BEA2AD720F5BE3E00913562 /* Trident_Can_OpenerTests.m */,
+				2BEA2AD920F5BE3E00913562 /* Info.plist */,
+			);
+			path = "Trident Can OpenerTests";
+			sourceTree = "<group>";
+		};
+		2BEA2AE120F5BE3E00913562 /* Trident Can OpenerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2BEA2AE220F5BE3E00913562 /* Trident_Can_OpenerUITests.m */,
+				2BEA2AE420F5BE3E00913562 /* Info.plist */,
+			);
+			path = "Trident Can OpenerUITests";
+			sourceTree = "<group>";
+		};
+		2BEA2AF820F5C7BC00913562 /* forestDumper */ = {
+			isa = PBXGroup;
+			children = (
+				2BEA2AFE20F5C7C800913562 /* forestdb_dump.cc */,
+				2BEA2B0520F5C92300913562 /* dump_common.cc */,
+				2BEA2B0920F5CE2D00913562 /* filemgr_ops_linux.cc */,
+				2BEA2B0720F5CE1300913562 /* filemgr_ops.cc */,
+			);
+			path = forestDumper;
+			sourceTree = "<group>";
+		};
+		2BEA2B0020F5C85E00913562 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2BEA2B0320F5C87400913562 /* libsnappy.a */,
+				2BEA2B0120F5C85F00913562 /* libforestdb.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BEA2ABC20F5BE3B00913562 /* Trident Can Opener */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BEA2AE720F5BE3E00913562 /* Build configuration list for PBXNativeTarget "Trident Can Opener" */;
+			buildPhases = (
+				2BEA2AB920F5BE3B00913562 /* Sources */,
+				2BEA2ABA20F5BE3B00913562 /* Frameworks */,
+				2BEA2ABB20F5BE3B00913562 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Trident Can Opener";
+			productName = "Trident Can Opener";
+			productReference = 2BEA2ABD20F5BE3B00913562 /* Trident Can Opener.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2BEA2AD220F5BE3E00913562 /* Trident Can OpenerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BEA2AEA20F5BE3E00913562 /* Build configuration list for PBXNativeTarget "Trident Can OpenerTests" */;
+			buildPhases = (
+				2BEA2ACF20F5BE3E00913562 /* Sources */,
+				2BEA2AD020F5BE3E00913562 /* Frameworks */,
+				2BEA2AD120F5BE3E00913562 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BEA2AD520F5BE3E00913562 /* PBXTargetDependency */,
+			);
+			name = "Trident Can OpenerTests";
+			productName = "Trident Can OpenerTests";
+			productReference = 2BEA2AD320F5BE3E00913562 /* Trident Can OpenerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2BEA2ADD20F5BE3E00913562 /* Trident Can OpenerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BEA2AED20F5BE3E00913562 /* Build configuration list for PBXNativeTarget "Trident Can OpenerUITests" */;
+			buildPhases = (
+				2BEA2ADA20F5BE3E00913562 /* Sources */,
+				2BEA2ADB20F5BE3E00913562 /* Frameworks */,
+				2BEA2ADC20F5BE3E00913562 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BEA2AE020F5BE3E00913562 /* PBXTargetDependency */,
+			);
+			name = "Trident Can OpenerUITests";
+			productName = "Trident Can OpenerUITests";
+			productReference = 2BEA2ADE20F5BE3E00913562 /* Trident Can OpenerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		2BEA2AF620F5C7BC00913562 /* forestDumper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BEA2AFB20F5C7BC00913562 /* Build configuration list for PBXNativeTarget "forestDumper" */;
+			buildPhases = (
+				2BEA2AF320F5C7BC00913562 /* Sources */,
+				2BEA2AF420F5C7BC00913562 /* Frameworks */,
+				2BEA2AF520F5C7BC00913562 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = forestDumper;
+			productName = forestDumper;
+			productReference = 2BEA2AF720F5C7BC00913562 /* forestDumper */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BEA2AB520F5BE3B00913562 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Hal Mueller";
+				TargetAttributes = {
+					2BEA2ABC20F5BE3B00913562 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					2BEA2AD220F5BE3E00913562 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 2BEA2ABC20F5BE3B00913562;
+					};
+					2BEA2ADD20F5BE3E00913562 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 2BEA2ABC20F5BE3B00913562;
+					};
+					2BEA2AF620F5C7BC00913562 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 2BEA2AB820F5BE3B00913562 /* Build configuration list for PBXProject "Trident Can Opener" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2BEA2AB420F5BE3B00913562;
+			productRefGroup = 2BEA2ABE20F5BE3B00913562 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BEA2ABC20F5BE3B00913562 /* Trident Can Opener */,
+				2BEA2AD220F5BE3E00913562 /* Trident Can OpenerTests */,
+				2BEA2ADD20F5BE3E00913562 /* Trident Can OpenerUITests */,
+				2BEA2AF620F5C7BC00913562 /* forestDumper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BEA2ABB20F5BE3B00913562 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BEA2AC720F5BE3E00913562 /* Assets.xcassets in Resources */,
+				2BEA2ACA20F5BE3E00913562 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BEA2AD120F5BE3E00913562 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BEA2ADC20F5BE3E00913562 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BEA2AB920F5BE3B00913562 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BEA2AC520F5BE3B00913562 /* ViewController.m in Sources */,
+				2BEA2AF220F5BEB100913562 /* CanOpener.m in Sources */,
+				2BEA2ACD20F5BE3E00913562 /* main.m in Sources */,
+				2BEA2AC220F5BE3B00913562 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BEA2ACF20F5BE3E00913562 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BEA2AD820F5BE3E00913562 /* Trident_Can_OpenerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BEA2ADA20F5BE3E00913562 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BEA2AE320F5BE3E00913562 /* Trident_Can_OpenerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BEA2AF320F5C7BC00913562 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BEA2B0620F5C92300913562 /* dump_common.cc in Sources */,
+				2BEA2B0A20F5CE2D00913562 /* filemgr_ops_linux.cc in Sources */,
+				2BEA2AFF20F5C7C800913562 /* forestdb_dump.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2BEA2AD520F5BE3E00913562 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BEA2ABC20F5BE3B00913562 /* Trident Can Opener */;
+			targetProxy = 2BEA2AD420F5BE3E00913562 /* PBXContainerItemProxy */;
+		};
+		2BEA2AE020F5BE3E00913562 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BEA2ABC20F5BE3B00913562 /* Trident Can Opener */;
+			targetProxy = 2BEA2ADF20F5BE3E00913562 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2BEA2AC820F5BE3E00913562 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BEA2AC920F5BE3E00913562 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2BEA2AE520F5BE3E00913562 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../Vendor/**";
+				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/../Vendor/**";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2BEA2AE620F5BE3E00913562 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../Vendor/**";
+				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/../Vendor/**";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2BEA2AE820F5BE3E00913562 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Trident Can Opener/Trident_Can_Opener.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = TW8SJXYFP5;
+				INFOPLIST_FILE = "Trident Can Opener/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mobilegeographics.Trident-Can-Opener";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2BEA2AE920F5BE3E00913562 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Trident Can Opener/Trident_Can_Opener.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = TW8SJXYFP5;
+				INFOPLIST_FILE = "Trident Can Opener/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mobilegeographics.Trident-Can-Opener";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2BEA2AEB20F5BE3E00913562 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = TW8SJXYFP5;
+				INFOPLIST_FILE = "Trident Can OpenerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mobilegeographics.Trident-Can-OpenerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Trident Can Opener.app/Contents/MacOS/Trident Can Opener";
+			};
+			name = Debug;
+		};
+		2BEA2AEC20F5BE3E00913562 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = TW8SJXYFP5;
+				INFOPLIST_FILE = "Trident Can OpenerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mobilegeographics.Trident-Can-OpenerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Trident Can Opener.app/Contents/MacOS/Trident Can Opener";
+			};
+			name = Release;
+		};
+		2BEA2AEE20F5BE3E00913562 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = TW8SJXYFP5;
+				INFOPLIST_FILE = "Trident Can OpenerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mobilegeographics.Trident-Can-OpenerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Trident Can Opener";
+			};
+			name = Debug;
+		};
+		2BEA2AEF20F5BE3E00913562 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = TW8SJXYFP5;
+				INFOPLIST_FILE = "Trident Can OpenerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mobilegeographics.Trident-Can-OpenerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Trident Can Opener";
+			};
+			name = Release;
+		};
+		2BEA2AFC20F5C7BC00913562 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TW8SJXYFP5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2BEA2AFD20F5C7BC00913562 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TW8SJXYFP5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BEA2AB820F5BE3B00913562 /* Build configuration list for PBXProject "Trident Can Opener" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BEA2AE520F5BE3E00913562 /* Debug */,
+				2BEA2AE620F5BE3E00913562 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BEA2AE720F5BE3E00913562 /* Build configuration list for PBXNativeTarget "Trident Can Opener" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BEA2AE820F5BE3E00913562 /* Debug */,
+				2BEA2AE920F5BE3E00913562 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BEA2AEA20F5BE3E00913562 /* Build configuration list for PBXNativeTarget "Trident Can OpenerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BEA2AEB20F5BE3E00913562 /* Debug */,
+				2BEA2AEC20F5BE3E00913562 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BEA2AED20F5BE3E00913562 /* Build configuration list for PBXNativeTarget "Trident Can OpenerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BEA2AEE20F5BE3E00913562 /* Debug */,
+				2BEA2AEF20F5BE3E00913562 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BEA2AFB20F5C7BC00913562 /* Build configuration list for PBXNativeTarget "forestDumper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BEA2AFC20F5C7BC00913562 /* Debug */,
+				2BEA2AFD20F5C7BC00913562 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2BEA2AB520F5BE3B00913562 /* Project object */;
+}

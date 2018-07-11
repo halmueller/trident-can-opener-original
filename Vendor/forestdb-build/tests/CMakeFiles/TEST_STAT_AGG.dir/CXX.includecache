@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/hal/DevelopmentSandbox/TridentTools/trident-can-opener/Vendor/forestdb/tests/stats-agg/stat_aggregator.cc
+algorithm
+-
+cmath
+-
+iterator
+-
+numeric
+-
+string
+-
+stat_aggregator.h
+/Users/hal/DevelopmentSandbox/TridentTools/trident-can-opener/Vendor/forestdb/tests/stats-agg/stat_aggregator.h
+
+/Users/hal/DevelopmentSandbox/TridentTools/trident-can-opener/Vendor/forestdb/tests/stats-agg/stat_aggregator.h
+stdio.h
+-
+stdint.h
+-
+assert.h
+-
+string
+-
+vector
+-
+
