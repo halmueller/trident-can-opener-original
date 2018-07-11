@@ -1,0 +1,6 @@
+[submodule "Vendor/forestdb"]
+	path = Vendor/forestdb
+	url = https://github.com/couchbase/forestdb
+[submodule "Vendor/snappy"]
+	path = Vendor/snappy
+	url = https://github.com/google/snappy
