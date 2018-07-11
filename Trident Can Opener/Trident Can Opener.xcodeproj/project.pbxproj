@@ -20,6 +20,7 @@
 		2BEA2B0420F5C87400913562 /* libsnappy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BEA2B0320F5C87400913562 /* libsnappy.a */; };
 		2BEA2B0620F5C92300913562 /* dump_common.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2BEA2B0520F5C92300913562 /* dump_common.cc */; };
 		2BEA2B0A20F5CE2D00913562 /* filemgr_ops_linux.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2BEA2B0920F5CE2D00913562 /* filemgr_ops_linux.cc */; };
+		2BEA2B0E20F6AD3200913562 /* forestdb_dump in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2BEA2B0B20F6ACC300913562 /* forestdb_dump */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		2BEA2B0D20F6AD1B00913562 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = ../bin;
+			dstSubfolderSpec = 6;
+			files = (
+				2BEA2B0E20F6AD3200913562 /* forestdb_dump in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -77,6 +88,7 @@
 		2BEA2B0520F5C92300913562 /* dump_common.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = dump_common.cc; path = ../../Vendor/forestdb/tools/dump_common.cc; sourceTree = "<group>"; };
 		2BEA2B0720F5CE1300913562 /* filemgr_ops.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = filemgr_ops.cc; path = ../../Vendor/forestdb/src/filemgr_ops.cc; sourceTree = "<group>"; };
 		2BEA2B0920F5CE2D00913562 /* filemgr_ops_linux.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = filemgr_ops_linux.cc; path = ../../../forestdb/src/filemgr_ops_linux.cc; sourceTree = "<group>"; };
+		2BEA2B0B20F6ACC300913562 /* forestdb_dump */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = forestdb_dump; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +187,7 @@
 		2BEA2AF820F5C7BC00913562 /* forestDumper */ = {
 			isa = PBXGroup;
 			children = (
+				2BEA2B0B20F6ACC300913562 /* forestdb_dump */,
 				2BEA2AFE20F5C7C800913562 /* forestdb_dump.cc */,
 				2BEA2B0520F5C92300913562 /* dump_common.cc */,
 				2BEA2B0920F5CE2D00913562 /* filemgr_ops_linux.cc */,
@@ -202,6 +215,7 @@
 				2BEA2AB920F5BE3B00913562 /* Sources */,
 				2BEA2ABA20F5BE3B00913562 /* Frameworks */,
 				2BEA2ABB20F5BE3B00913562 /* Resources */,
+				2BEA2B0D20F6AD1B00913562 /* CopyFiles */,
 			);
 			buildRules = (
 			);
